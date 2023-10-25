@@ -11,7 +11,7 @@ BIM-5D-Dashboard is a Python project that integrates Building Information Modeli
 
 4. **Visualization:** The project visualizes cost status by assigning colors to building elements in the IFC file. Elements are color-coded to quickly identify their cost status.
 
-<img src="Images/1.jpg" alt="Image Alt Text" width="600">
+<img src="images/1.jpg" alt="Image Alt Text" width="800">
 
 
 5. **Export:** The modified IFC file with cost-related properties and colors can be exported for further analysis or presentation.
