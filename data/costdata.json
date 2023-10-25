@@ -1,0 +1,313 @@
+{
+    "IFCELEMENTS": [
+        {"ID":"001",
+         "Name":"IfcWall",
+         "Tasks":[ {"ID": "W001",
+                    "Name": "Brick Laying",
+                    "Productivity":5,
+                    "QType":"NetVolume",
+                    "Ratio":1,
+                    "UoM": "m3",
+                    "Resources":[ { "ID":"L001",
+                                    "Name":"Foreman",
+                                    "Quantity": 5,
+                                    "UnitPrice":15,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                  },
+                                  { "ID":"L002",
+                                    "Name":"Skilled Labor",
+                                    "Quantity": 20,
+                                    "UnitPrice":10,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                  },
+                                  { "ID":"M001",
+                                    "Name":"Brick",
+                                    "Quantity":5.5,
+                                    "UnitPrice":75,
+                                    "UoM":"m3",
+                                    "Type":"Material"
+                                  }]
+                    },
+                    {"ID": "W002",
+                    "Name": "Plastering",
+                    "Productivity":10,
+                    "QType":"NetSideArea",
+                    "Ratio":1,
+                    "UoM": "m2",
+                    "Resources":[ { "ID":"L001",
+                                    "Name":"Foreman",
+                                    "Quantity": 1,
+                                    "UnitPrice":15,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                  },
+                                  { "ID":"L002",
+                                    "Name":"Skilled Labor",
+                                    "Quantity": 10,
+                                    "UnitPrice":10,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                  },
+                                  { "ID":"M002",
+                                    "Name":"Plaster",
+                                    "Quantity":22,
+                                    "UnitPrice":3,
+                                    "UoM":"kg",
+                                    "Type":"Material"
+                                  }]
+
+                    },
+                    {"ID": "W003",
+                    "Name": "Painting",
+                    "Productivity":20,
+                    "QType":"NetSideArea",
+                    "Ratio":1,
+                    "UoM": "m2",
+                    "Resources":[ { "ID":"L001",
+                                    "Name":"Foreman",
+                                    "Quantity": 1,
+                                    "UnitPrice":15,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                  },
+                                  { "ID":"L002",
+                                    "Name":"Skilled Labor",
+                                    "Quantity": 10,
+                                    "UnitPrice":10,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                  },
+                                  { "ID":"M003",
+                                    "Name":"Paint",
+                                    "Quantity":22,
+                                    "UnitPrice":5,
+                                    "UoM":"kg",
+                                    "Type":"Material"
+                                  }]
+                    }
+         ]
+        },
+        {"ID":"002",
+         "Name":"IfcColumn",
+         "Tasks":[  {"ID": "C001",
+                    "Name": "Rebar",
+                    "Productivity":2,
+                    "QType":"Weight",
+                    "Ratio":0.10,
+                    "UoM": "tonne",
+                     "Resources":[ {"ID":"L001",
+                                    "Name":"Foreman",
+                                    "Quantity": 1,
+                                    "UnitPrice":15,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                    },
+                                    {"ID":"L002",
+                                    "Name":"Skilled Labor",
+                                    "Quantity": 10,
+                                    "UnitPrice":10,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                    },
+                                    {"ID":"M004",
+                                    "Name":"Rebar",
+                                    "Quantity":2.2,
+                                    "UnitPrice":1500,
+                                    "UoM":"tonne",
+                                    "Type":"Material"
+                                    }
+                                 ]   
+                    },
+                    {"ID": "C002",
+                    "Name": "Concrete",
+                    "Productivity":16,
+                    "QType":"NetVolume",
+                    "Ratio":1,
+                    "UoM": "m3",
+                    "Resources":[ { "ID":"L001",
+                                    "Name":"Foreman",
+                                    "Quantity": 10,
+                                    "UnitPrice":15,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                  },
+                                  { "ID":"L002",
+                                    "Name":"Skilled Labor",
+                                    "Quantity": 30,
+                                    "UnitPrice":10,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                  },
+                                  { "ID":"M005",
+                                    "Name":"Concrete",
+                                    "Quantity":17,
+                                    "UnitPrice":150,
+                                    "UoM":"m3",
+                                    "Type":"Material"
+                                  }]
+                    },
+                    {"ID": "C003",
+                    "Name": "Formwork",
+                    "Productivity":10,
+                    "QType":"OuterSurfaceArea",
+                    "Ratio":0.001,
+                    "UoM": "m2",
+                    "Resources":[ { "ID":"L001",
+                                    "Name":"Foreman",
+                                    "Quantity": 1,
+                                    "UnitPrice":15,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                  },
+                                  { "ID":"L002",
+                                    "Name":"Skilled Labor",
+                                    "Quantity": 40,
+                                    "UnitPrice":10,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                  },
+                                  { "ID":"M005",
+                                    "Name":"Formwork",
+                                    "Quantity":22,
+                                    "UnitPrice":10,
+                                    "UoM":"m2",
+                                    "Type":"Material"
+                                  }]
+
+                    }
+                    
+                ]
+        },
+        {"ID":"003",
+         "Name":"IfcSlab",
+         "Tasks":[  {"ID": "S001",
+                    "Name": "Rebar",
+                    "Productivity":20,
+                    "QType":"Weight",
+                    "Ratio":0.13,
+                    "UoM": "tonne",
+                     "Resources":[ {"ID":"L001",
+                                    "Name":"Foreman",
+                                    "Quantity": 1,
+                                    "UnitPrice":15,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                    },
+                                    {"ID":"L002",
+                                    "Name":"Skilled Labor",
+                                    "Quantity": 50,
+                                    "UnitPrice":10,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                    },
+                                    {"ID":"M004",
+                                    "Name":"Rebar",
+                                    "Quantity":22,
+                                    "UnitPrice":5,
+                                    "UoM":"kg",
+                                    "Type":"Material"
+                                    }
+                                 ]   
+                    },
+                    {"ID": "S002",
+                    "Name": "Concrete",
+                    "Productivity":16,
+                    "QType":"NetVolume",
+                    "Ratio":1,
+                    "UoM": "m3",
+                    "Resources":[ { "ID":"L001",
+                                    "Name":"Foreman",
+                                    "Quantity": 10,
+                                    "UnitPrice":15,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                  },
+                                  { "ID":"L002",
+                                    "Name":"Skilled Labor",
+                                    "Quantity": 40,
+                                    "UnitPrice":10,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                  },
+                                  { "ID":"M005",
+                                    "Name":"Concrete",
+                                    "Quantity":17,
+                                    "UnitPrice":110,
+                                    "UoM":"m3",
+                                    "Type":"Material"
+                                  }]
+                    },
+                    {"ID": "S003",
+                    "Name": "Formwork",
+                    "Productivity":30,
+                    "QType":"Perimeter",
+                    "Ratio":1,
+                    "UoM": "m",
+                    "Resources":[ { "ID":"L001",
+                                    "Name":"Foreman",
+                                    "Quantity": 1,
+                                    "UnitPrice":15,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                  },
+                                  { "ID":"L002",
+                                    "Name":"Skilled Labor",
+                                    "Quantity": 40,
+                                    "UnitPrice":10,
+                                    "UoM":"hr",
+                                    "Type":"Labor"
+                                  },
+                                  { "ID":"M005",
+                                    "Name":"Formwork",
+                                    "Quantity":22,
+                                    "UnitPrice":3,
+                                    "UoM":"kg",
+                                    "Type":"Material"
+                                  }]
+
+                    }
+                    
+                ]
+        },
+        {"ID":"005",
+         "Name":"IfcDoor",
+         "Tasks":[  {"ID": "D001",
+                    "Name": "Door Installation",
+                    "Productivity":5,
+                    "QType":"Each",
+                    "Ratio":1,
+                    "UoM": "ea",
+                     "Resources":[ {"ID":"SUB001",
+                                    "Name":"Door Installation Subcontractor",
+                                    "Quantity": 1,
+                                    "UnitPrice":10500,
+                                    "UoM":"ea",
+                                    "Type":"Subcontractor"
+                                    }]
+                    }                    
+                ]
+        },
+        {"ID":"006",
+         "Name":"IfcWindow",
+         "Tasks":[  {"ID": "F001",
+                    "Name": "Window Installation",
+                    "Productivity":7,
+                    "QType":"Each",
+                    "Ratio":1,
+                    "UoM": "ea",
+                     "Resources":[ {"ID":"SUB001",
+                                    "Name":"Window Installation Subcontractor",
+                                    "Quantity": 1,
+                                    "UnitPrice":7000,
+                                    "UoM":"ea",
+                                    "Type":"Subcontractor"
+                                    }]
+                    }                    
+                ]
+        }        
+    ]
+
+
+}
